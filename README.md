@@ -109,8 +109,8 @@
 .btn-aluno {
   background-color: #4CAF50; /* verde chamativo */
   color: white;
-  font-size: 1.9em;
-  padding: 30px 60px;
+  font-size: 2.2em;
+  padding: 40px 80px;
   border: none;
   border-radius: 15px;
   cursor: pointer;
@@ -126,10 +126,11 @@
 .btn-professor {
   background-color: transparent;
   color: #f7f6f6;
-  font-size: 1.2em;
+  font-size: 1.5em;
   border: none;
   cursor: pointer;
   margin: 10px;
+  padding: 18px 40px;
 }
 .btn-professor:hover {
   text-decoration: underline;
@@ -138,8 +139,8 @@
 .btn-entrar {
   background-color: #4CAF50; /* verde chamativo */
   color: white;
-  font-size: 1.2em;
-  padding: 12px 25px;
+  font-size: 1.5em;
+  padding: 18px 40px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -154,10 +155,10 @@
 .btn-cancelar {
   background-color: #e74c3c; /* vermelho */
   color: white;
-  font-size: 1.2em;
-  padding: 12px 25px;
+  font-size: 1.6em;
+  padding: 20px 40px;
   border: none;
-  border-radius: 10px;
+  border-radius: 15px;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -177,10 +178,10 @@
 .anos-container button {
   background-color: #3498db; /* azul */
   color: white;
-  font-size: 1.3em;
-  padding: 20px 40px;
+  font-size: 1.8em;
+  padding: 30px 60px;
   border: none;
-  border-radius: 15px;
+  border-radius: 20px;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -210,8 +211,9 @@
 }
 
      
-   h1, h2 { 
-  margin-bottom: 20px; 
+ h1, h2 { 
+  margin-bottom: 25px; 
+  font-size: 2.5em; /* antes era padrão, agora maior */
 }
 .screen {
   display: none;
@@ -225,9 +227,9 @@
 
 /* Estilo específico para a pergunta */
 #pergunta {
-  font-size: 2.5em; /* aumenta apenas o texto da pergunta */
+  font-size: 3em; /* aumenta apenas o texto da pergunta */
   text-align: center;
-  margin: 20px;
+  margin:  30px 20px;
   line-height: 1.3;
 }
     .active { display: flex; }
@@ -239,8 +241,8 @@
       border: none;
     }
     .options button {
-  padding: 40px 0;        /* altura maior do botão */
-  font-size: 2.5em;       /* aumenta o tamanho do texto/número */
+  padding: 60px 0;        /* altura maior do botão */
+  font-size: 3em;       /* aumenta o tamanho do texto/número */
   border-radius: 20px;
   cursor: pointer;
   width: 100%;             /* ocupa toda a coluna da grid */
@@ -250,7 +252,7 @@
 }
     .options button:hover, .options button:active { background: #2ecc71; }
     .selected { background: #e006a2 !important; }
-    #timer { font-size: 2.5em; margin: 20px; }
+    #timer { font-size: 3em; margin: 20px; }
     
    #grafico {
   max-width: 400px;
@@ -262,7 +264,7 @@
   .progresso {
   text-align: center;           /* centraliza o texto */
   color: gold;                  /* dourado */
-  font-size: 1.8em;             /* aumenta o tamanho */
+  font-size: 2.2em;             /* aumenta o tamanho */
   font-weight: bold;            /* deixa destacado */
   text-shadow: 2px 2px 5px rgba(0,0,0,0.5); /* sombra para destacar */
   margin-bottom: 15px;
@@ -299,9 +301,9 @@
 
 /* Botão do JOGO em destaque */
 .btn-jogo {
-  padding: 20px 50px;
-  font-size: 1.8em;
-  border-radius: 15px;
+  padding: 30px 70px;
+  font-size: 2.2em;
+  border-radius: 20px;
   background: linear-gradient(135deg, #4CAF50, #2E7D32);
   color: white;
   border: none;
